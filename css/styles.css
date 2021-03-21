@@ -1,0 +1,275 @@
+#generalContainer {
+  width: 100%;
+  padding-bottom: 100px; /* ! temporal para pruebas  */
+}
+.container {
+  max-width: 1000px;
+}
+
+.bg-navbar-header {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#464bea+0,2533ed+16,1a0bed+49,59117a+100 */
+  background: rgb(70, 75, 234); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(70, 75, 234, 1) 0%,
+    rgba(37, 51, 237, 1) 16%,
+    rgba(26, 11, 237, 1) 49%,
+    rgba(89, 17, 122, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(70, 75, 234, 1) 0%,
+    rgba(37, 51, 237, 1) 16%,
+    rgba(26, 11, 237, 1) 49%,
+    rgba(89, 17, 122, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    rgba(70, 75, 234, 1) 0%,
+    rgba(37, 51, 237, 1) 16%,
+    rgba(26, 11, 237, 1) 49%,
+    rgba(89, 17, 122, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464bea', endColorstr='#59117a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .btn {
+  width: 150px;
+}
+
+header {
+  padding-top: 80px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.8rem;
+}
+header p {
+  color: rgb(126, 121, 121);
+  font-size: 1.4rem;
+  border: none;
+}
+
+header::after {
+  position: absolute;
+  bottom: -1px;
+  content: "";
+  background-image: url(../img/pancita.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40px;
+}
+
+/* Defino todos los badges, checks e iconos*/
+.badge-celeste {
+  background-color: rgb(207, 229, 247);
+  color: black;
+  font-weight: normal;
+}
+.badge-gris {
+  background-color: rgb(228, 234, 240);
+  color: black;
+  font-weight: normal;
+}
+.badge-gris-oscuro {
+  background-color: rgb(25, 29, 32);
+  color: rgb(124, 118, 118);
+  font-weight: normal;
+}
+
+.check-verde {
+  color: rgb(69, 212, 93);
+  font-size: 1rem;
+}
+.check-deshabilitado {
+  color: rgb(228, 234, 240);
+  font-size: 1rem;
+}
+.fa-arrow-right {
+  font-size: 0.7rem;
+}
+
+/* Comienza seccion Simple Pricing */
+#simple-pricing .row {
+  margin-top: 50px;
+}
+
+#simple-pricing .price-tag-container {
+  width: 90%;
+  height: 380px;
+  border-radius: 6px;
+}
+
+.pricing-btn {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.pricetag-price {
+  font-size: 3rem;
+}
+.pricetag-price sup {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.pricetag-price span {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.pricetag-list li {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: start;
+  list-style: none;
+}
+
+.content-price-tag-container {
+  height: 310px;
+}
+
+.last-price-tag {
+  padding: 100px 42px;
+  font-size: 0.9rem;
+}
+
+/* Comienza Seccion de planes */
+.plan-title {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.plan-tag-container {
+  width: 100%;
+  height: 420px;
+}
+
+.left-footer-plan-card {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(231, 225, 199);
+  border-radius: 0 0 5px 5px;
+  color: blue;
+}
+
+.plan-right-card {
+  background-color: rgb(38, 42, 48);
+  height: 300px;
+  color: rgb(124, 118, 118);
+  padding-top: 40px;
+  border-radius: 0 6px 6px 0;
+}
+
+.plan-right-card .badge {
+  margin-bottom: 30px;
+}
+
+.right-footer-plan-card {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0 0 5px 0;
+}
+
+
+footer {
+  padding-top: 100px;
+  height: 550px;
+  background-color: rgb(0, 0, 0);
+color: gray;
+}
+.socialIcons {
+  font-size: 1.7rem;
+}
+
+.socialColumn {
+  color: gray;
+}
+
+.socialColumn a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer h5 {
+  margin-bottom: 25px;
+  }
+footer ul {
+  margin-left: 0;
+  padding-left: 0;
+  }
+footer li {
+list-style: none;
+margin-bottom: 8px;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+
+
+
+/*  Seteos Responsive @media queries */
+@media (max-width: 992px) {
+  #menu {
+    background-color: black;
+    padding-left: 15px;
+  }
+
+  #simple-pricing .col-lg-4 {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  #simple-pricing .price-tag-container {
+    width: 70%;
+    height: 380px;
+  }
+
+  .pricing-btn {
+    margin-bottom: 30px;
+  }
+  #plan-section .col-lg-6 {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 70%;
+  }
+  .plan-left-card {
+    border-radius: 6px 6px 0 0;
+}
+.right-footer-plan-card {
+  border-radius: 0 0 6px 6px;
+}
+  .plan-right-card {
+       border-radius: 6px 6px 6px 6px;
+  }
+
+  footer {
+    text-align: center;
+    height: 100%;
+ }
+}
