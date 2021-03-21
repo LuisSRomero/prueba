@@ -193,7 +193,7 @@ footer {
   padding-top: 100px;
   height: 550px;
   background-color: rgb(0, 0, 0);
-  color: gray;
+color: gray;
 }
 .socialIcons {
   font-size: 1.7rem;
@@ -210,14 +210,15 @@ footer {
 
 footer h5 {
   margin-bottom: 25px;
-}
+  }
 footer ul {
   margin-left: 0;
   padding-left: 0;
-}
+  }
 footer li {
-  list-style: none;
-  margin-bottom: 8px;
+list-style: none;
+margin-bottom: 8px;
+
 }
 
 footer a {
@@ -228,6 +229,9 @@ footer a:hover {
   text-decoration: underline;
   color: gray;
 }
+
+
+
 
 /*  Seteos Responsive @media queries */
 @media (max-width: 992px) {
@@ -250,6 +254,7 @@ footer a:hover {
     margin-bottom: 30px;
   }
   #plan-section .col-lg-6 {
+    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -257,16 +262,16 @@ footer a:hover {
   }
   .plan-left-card {
     border-radius: 6px 6px 0 0;
-  }
-  .right-footer-plan-card {
-    border-radius: 0 0 6px 6px;
-  }
+}
+.right-footer-plan-card {
+  border-radius: 0 0 6px 6px;
+}
   .plan-right-card {
-    border-radius: 6px 6px 6px 6px;
+       border-radius: 6px 6px 6px 6px;
   }
 
   footer {
     text-align: center;
     height: 100%;
-  }
+ }
 }
