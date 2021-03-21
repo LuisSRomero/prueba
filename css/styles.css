@@ -269,6 +269,7 @@ footer a:hover {
     text-align: center;
     height: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 =======
  }
@@ -278,4 +279,12 @@ footer .col-lg-3, footer .col-lg-2 {
 }
 
 >>>>>>> 29170be1211922b60b201dba67b6facec90af964
+=======
+  }
+
+  footer .col-lg-3,
+  footer .col-lg-2 {
+    margin-bottom: 50px;
+  }
+>>>>>>> 7c9345d59f0f923524c0998b02b70bd1fe620cfe
 }
