@@ -274,4 +274,9 @@ footer a:hover {
     text-align: center;
     height: 100%;
  }
+
+footer .col-lg-3, footer .col-lg-2 {
+  margin-bottom: 50px;
+}
+
 }
