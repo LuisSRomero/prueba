@@ -1,3 +1,4 @@
+/* Declaro tamaños de contenedores */
 #generalContainer {
   width: 100%;
   padding-bottom: 100px; /* ! temporal para pruebas  */
@@ -6,6 +7,7 @@
   max-width: 1000px;
 }
 
+/* Declaro estilos Nav bar y Header */
 .bg-navbar-header {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#464bea+0,2533ed+16,1a0bed+49,59117a+100 */
   background: rgb(70, 75, 234); /* Old browsers */
@@ -186,7 +188,7 @@ header::after {
   border-radius: 0 0 5px 0;
 }
 
-
+/* Defino Estilos Footer */
 footer {
   padding-top: 100px;
   height: 550px;
